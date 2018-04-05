@@ -16,7 +16,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void testMeanMetho() {
+    public void testMeanMethod() {
         Library classUnderTest = new Library();
 
         ArrayList<Double> data = new ArrayList<>();
@@ -24,7 +24,7 @@ public class LibraryTest {
         data.add(4.0);
         Double ans = classUnderTest.mean(data);
 
-        assertEquals(4.01, ans, 0.0002);
+        assertEquals(4.001, ans, 0.002);
 
     }
 }

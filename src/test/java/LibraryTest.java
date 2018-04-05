@@ -20,11 +20,11 @@ public class LibraryTest {
         Library classUnderTest = new Library();
 
         ArrayList<Double> data = new ArrayList<>();
-        data.add(3.4);
-        data.add(5.5);
+        data.add(4.0);
+        data.add(4.0);
         Double ans = classUnderTest.mean(data);
 
-        assertEquals(4.45, ans, 0.0002);
+        assertEquals(4.01, ans, 0.0002);
 
     }
 }
